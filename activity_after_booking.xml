@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfterBooking">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="173dp"
+        android:layout_height="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="201dp"
+        android:text=""
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <TextView
+        android:textSize="25sp"
+
+        android:id="@+id/textView18"
+        android:layout_width="303dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginStart="-114dp"
+        android:layout_marginTop="71dp"
+        android:text="TextView" />
+</RelativeLayout>
